@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Silencer 支持</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#eeebf6; --ink:#1c1c22; --muted:#66647a; --line:#d9d5e6; --card:#f8f7fc; --accent:#3d6fd1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }
+    main { width: min(720px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0; }
+    h1 { margin: 0 0 6px; font-size: 40px; font-weight: 300; letter-spacing: .01em; }
+    .lead { margin: 0; font-size: 20px; color: var(--muted); font-weight: 300; }
+    h2 { margin-top: 40px; font-size: 19px; }
+    p, li { line-height: 1.75; color: var(--muted); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    .card { margin-top: 28px; padding: 22px 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--card); }
+    hr { margin: 52px 0; border: 0; border-top: 1px solid var(--line); }
+    footer { margin-top: 56px; font-size: 13px; color: var(--muted); }
+    @media (prefers-color-scheme: dark) { :root { --bg:#14141a; --ink:#f1f0f6; --muted:#aaa8bb; --line:#33323f; --card:#1c1c24; --accent:#7da2ef; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Silencer</h1>
+    <p class="lead">电视去广告，换干净主屏</p>
+
+    <div class="card">
+      <p>Silencer 帮你把安卓电视收拾干净：停用预装的广告和统计应用，换上干净的新主屏，手机还能当遥控器。只停用，不删除，随时能还原。</p>
+    </div>
+
+    <h2>需要什么</h2>
+    <ul>
+      <li>安卓系统的电视或盒子（Android TV 或 Google TV）。三星、LG 等不是安卓系统的电视用不了。</li>
+      <li>iPhone 和电视连在同一个 Wi-Fi 下。</li>
+      <li>在电视的开发者选项里打开 ADB 调试（USB 调试、网络调试或无线调试）。App 里的「设置电视」按品牌一步一步教。</li>
+    </ul>
+
+    <h2>常见问题</h2>
+    <ul>
+      <li><b>找不到电视：</b>确认手机和电视在同一个 Wi-Fi 下、电视已打开 ADB 调试。第一次连接时，电视上会弹出是否允许调试，选「允许」（建议勾选「一律允许」）。</li>
+      <li><b>小米电视：</b>每次重启都会自己关掉 ADB 调试，以后要换主题或还原，先在电视上重新打开。</li>
+      <li><b>换不了主屏：</b>有些电视不让换主屏。Silencer 连上后会告诉你，这时可以只停用应用，或只把它当遥控器用。</li>
+      <li><b>想恢复原样：</b>在「我的电视」里点「还原」，电视会回到清理前的样子。</li>
+    </ul>
+
+    <h2>联系支持</h2>
+    <p>发送邮件至 <a href="mailto:aceisgenius_cn@outlook.com?subject=Silencer">aceisgenius_cn@outlook.com</a>，请附上手机型号、电视品牌和型号，以及问题描述。</p>
+
+    <hr>
+
+    <section lang="en">
+      <h1>Silencer</h1>
+      <p class="lead">No ads, a clean TV home</p>
+      <div class="card">
+        <p>Silencer tidies up your Android TV: it switches off the preinstalled ad and tracking apps, puts on a clean new home screen, and turns your iPhone into the remote. Apps are only switched off, never deleted, and you can put everything back at any time.</p>
+      </div>
+
+      <h2>What you need</h2>
+      <ul>
+        <li>A TV or box that runs Android (Android TV or Google TV). Samsung, LG and other TVs that don't run Android won't work.</li>
+        <li>Your iPhone and TV on the same Wi-Fi.</li>
+        <li>ADB debugging (USB debugging, Network debugging or Wireless debugging) switched on in the TV's developer options. Set up a TV in the app shows you how, step by step, for your TV's maker.</li>
+      </ul>
+
+      <h2>Common questions</h2>
+      <ul>
+        <li><b>It can't find my TV:</b> check that your iPhone and TV are on the same Wi-Fi and that ADB debugging is on. The first time it connects, the TV asks whether to allow debugging: choose Allow (ticking Always allow helps).</li>
+        <li><b>Xiaomi TVs</b> switch ADB debugging off at every restart. To change themes or restore later, switch it back on first.</li>
+        <li><b>The home screen can't be changed:</b> some TVs don't allow it. Silencer tells you once it's connected; you can then just switch apps off, or use it only as a remote.</li>
+        <li><b>Putting it back:</b> in My TV, tap Restore, and the TV goes back to how it was before the cleanup.</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Email <a href="mailto:aceisgenius_cn@outlook.com?subject=Silencer">aceisgenius_cn@outlook.com</a> with your iPhone model, your TV's maker and model, and what happened.</p>
+    </section>
+
+    <p><a href="privacy.html">隐私政策 / Privacy Policy</a></p>
+    <footer>© 2026 CeHuan Chen</footer>
+  </main>
+</body>
+</html>
